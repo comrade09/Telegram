@@ -12,7 +12,7 @@ class Config(object):
     API_HASH = getenv("API_HASH", "a5d9be6f810f31e5c56bad6eebbd7ba8")
     TOKEN = getenv("TOKEN", "5522488286:AAGt7lPKy31PL6WMLjspceESsNC99OD5ZQU")
     OWNER_ID = getenv("OWNER_ID","1442684727")
-    STRING_SESSION = getenv("STRING_SESSION","1BVtsOG8Bu5C1woVmlQUwYO_t7Fi-kxtLH2ZmlRAKxwN9UA-oVYazSrnJ-cr9_Cc75De0YANrg09oCKYg4va8O-3tNQCEeZw5e6HkQWDBgf2XMklJL-a1W8nAoGu5ARekZ0bXO9X2yoa5egY_IyBn6HlCOR4dRwh2L4cImtqOpQI6I3s-sT8cmpRVLkUKLSBAiFRxDmH1PR5sRw59XZPso-SVOgI7LG6TNqvYNH9JXsjPw1V1_0Z5no4BvJ8JBCfHBwk-cZHTo7bInfIZNZOj2Qukm7FGZeVhegHV8KpqtyUp47nQPyCY6hgYDyuhiLpIrY82kWfJggPrLhePpi_19eAyJ026fwM=")
+    STRING_SESSION = getenv("STRING_SESSION","BQC_6nmciUHubuyBYuHCplMfpZhWMsP40MiYlY1o-ULtvSZurnAk-DVmxhdE96EAJ9lplxWEtoIZ-OfAaN-x3oq_nj-wTsx_U_EbgwKqAhNXFal4CucPxIUSKDDTykiwK_1Ti2VLEfKt1fS4jJbvTvbMojXBUtDbW3UeHl8hZwdpzY0K2Yrdzgd9ajv3nFPq70shsrKdWZYBn2Xo_8CaCuYihNYmzFLlqLK0DXOlxZyAQPllWEuKGoG2qNclXJSQBRkVk2eBYZSXFjweVNrB_RsL7kkEYkS3-Hvos1sc2pzSi9fyhr4QM3Z9rE9_jBAEtoaeN06kxZL9eseGF7tflcNQPcjI6QA")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "Ath2023")
     DB_URI = getenv("DATABASE_URL" , "postgres://mozcfhlw:F9P_IepbofsGVuKMxWIRvyacXmdAICwe@lallah.db.elephantsql.com/mozcfhlw")
     DB_URI = DB_URI.replace("postgres", "postgresql")
