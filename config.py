@@ -14,7 +14,7 @@ class Config(object):
     OWNER_ID = getenv("OWNER_ID","1442684727")
     STRING_SESSION = getenv("STRING_SESSION","1BVtsOG8Bu5C1woVmlQUwYO_t7Fi-kxtLH2ZmlRAKxwN9UA-oVYazSrnJ-cr9_Cc75De0YANrg09oCKYg4va8O-3tNQCEeZw5e6HkQWDBgf2XMklJL-a1W8nAoGu5ARekZ0bXO9X2yoa5egY_IyBn6HlCOR4dRwh2L4cImtqOpQI6I3s-sT8cmpRVLkUKLSBAiFRxDmH1PR5sRw59XZPso-SVOgI7LG6TNqvYNH9JXsjPw1V1_0Z5no4BvJ8JBCfHBwk-cZHTo7bInfIZNZOj2Qukm7FGZeVhegHV8KpqtyUp47nQPyCY6hgYDyuhiLpIrY82kWfJggPrLhePpi_19eAyJ026fwM=")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "Ath2023")
-    DB_URI = getenv("DATABASE_URL" , "postgres://ffyxymnf:BNtsJOhdCSd5lFJdaeDC0v8S_i1SVA2F@heffalump.db.elephantsql.com/ffyxymnf")
+    DB_URI = getenv("DATABASE_URL" , "postgres://mozcfhlw:F9P_IepbofsGVuKMxWIRvyacXmdAICwe@lallah.db.elephantsql.com/mozcfhlw")
     DB_URI = DB_URI.replace("postgres", "postgresql")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001509525202")
     GBAN_LOGS = getenv("GBAN_LOGS", "-1001509525202")
