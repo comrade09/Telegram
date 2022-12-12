@@ -8,12 +8,12 @@ if os.path.exists("local.env"):
 load_dotenv()
 class Config(object):
     log = True
-    APP_ID = getenv("API_ID", "10773580")
-    API_HASH = getenv("API_HASH", "aaf38cd4a95a1e957530d8806b65a475")
-    TOKEN = getenv("TOKEN", "5353943032:AAEeO8GLoiu68Z_SkyAa9kSJmjFzk0XSKCI")
-    OWNER_ID = getenv("OWNER_ID","1828345056")
-    STRING_SESSION = getenv("STRING_SESSION","1BVtsOLwBu3WFGjs5QKHvokf2BVZ_rPnDaXJMZakCIGqG7GcVjgxA8yXr6x6TiWaquGQHQhJ0EoPTzsFEyqN_HFsztgxx4DFMuwk1t3XObJn-4GPGB1H4Z-Ix26N2ixDTXngOGfJI2UQ6vpH9_6HgxMU1EcAThLDuJqa7KIz_0FoizmFUYJfSX-abbIZv3UYWZTxjyYfulrfeAZvkJhvw5PRhwiuFSB3aXkcOEiNEdZQ4mu7htPG7q-vT9aB2SQMizuAhPBPfhDB4ZdPfUw_R2t3H0guST4aL9fnDRKjw_mWKQWDZRXu8WYJOB1gTDhxzh8N3HT-PWD5C4uYnzabjnUMBMPqzb8k=")
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "Python_Itachi01")
+    APP_ID = getenv("API_ID", "6435225")
+    API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
+    TOKEN = getenv("TOKEN", "5959631394:AAGZAnzjaDJt0xWnwei-9rXRIuLQL5PHhwg")
+    OWNER_ID = getenv("OWNER_ID","1036568809")
+    STRING_SESSION = getenv("STRING_SESSION","1BVtsOLwBux8CljXK6g6j0eE8hy-q430aLSWDY0kPtgB2yMkEqu0LlmKNobODQn_5_0aVmrbmX9iTeSn8v6EeTvp_sW7v6ErXLR13jHY9f2laudhC3qn3OkVsTGEmgJRXnVYhlHWI4T_dd8bOjjn0pqKddBPyXoXxF2uVHBIGksIvK5LACAA9PciNOLG5guVXHoY4bmuLoGMieAP0XKAL2GEZu5FPwfIUdr3pz-DWqgbV7obGFx1mvpTzAwGfyvni6pt9U2y5ZDDDyDixq5TBPINsMFnk-2OzZqbKMrkOX_vEDx8xv0OhNsyLMCN608F9R5VQ90AV01WQJayDZLq2qPNbltWmAtQ=")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "wodlike")
     DB_URI = getenv("DATABASE_URL" , "postgres://altxcmqe:bqNFRK-cFk3fnTGl4trJHNIxgpRX6SxA@heffalump.db.elephantsql.com/altxcmqe")
     DB_URI = DB_URI.replace("postgres", "postgresql")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001878165791")
