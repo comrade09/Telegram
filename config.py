@@ -8,8 +8,8 @@ if os.path.exists("local.env"):
 load_dotenv()
 class Config(object):
     log = True
-    API_ID = getenv("API_ID","27340010")
-    API_HASH = getenv("API_HASH","76297aded23b5e3e61480d82a4f25771")
+    APP_ID = getenv("API_ID", "27340010")
+    API_HASH = getenv("API_HASH", "76297aded23b5e3e61480d82a4f25771")
     TOKEN = getenv("TOKEN", "5959631394:AAGZAnzjaDJt0xWnwei-9rXRIuLQL5PHhwg")
     OWNER_ID = getenv("OWNER_ID","1036568809")
     STRING_SESSION = getenv("STRING_SESSION","1BVtsOMUBuwajK-mmjiNOsezQpBHRacgh3IX4wFBhj0n-w-j8logzqJf9zRx6S52gQtji_EtW9IfxVZKBc1ihM57cjWjWvkx_4uO8ExZbytxzssn-LKYGX4wC_kqMAK7-PHkW8sAA-6b34ktacfnY0xswqisDEPmuq9O5WjfIDCwXbGkgDmbpbmKab1MlD21Urh4SItk1Q6G7PKzW-oFSGsCB5CHxoRNDG9_WKM_CDp5Mr61bk5Scgfh-L-w9cCimmOm9x_7s5wjL7UxKJUJqZZGCJ-SKufQMRzhYBKy-YrEI0V-hWIEO2zVet_4cIUJN9jFrphTHcNeSCDapLyBnJfWNz0YuuIc=")
